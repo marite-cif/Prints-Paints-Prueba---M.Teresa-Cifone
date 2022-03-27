@@ -1,0 +1,96 @@
+.main-galeria {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 300px;
+    width: 100%;
+    height: 650px;
+    gap: 10px;
+
+}
+
+.serigrafista {
+    background-color: black;
+    grid-row: 2 span;
+    border-style: solid;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(44, 4, 44);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+
+.serigrafista img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.serig-estudio {
+    background-color: black;
+    grid-column: 1 span;
+    border-style: solid;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(44, 4, 44);
+    border-radius: 20px;
+    margin: 20px;
+
+}
+
+
+.serig-estudio img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+
+}
+
+.mano {
+    background-color: black;
+    grid-row: 1 span;
+    border-style: solid;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(44, 4, 44);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+
+.mano img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+.trabajo {
+    background-color: black;
+    grid-row: 1 span;
+    border-style: solid;
+    border: 5px;
+    border-style: solid;
+    border-color: rgb(44, 4, 44);
+    border-radius: 20px;
+    margin: 20px;
+}
+
+
+.trabajo img {
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+}

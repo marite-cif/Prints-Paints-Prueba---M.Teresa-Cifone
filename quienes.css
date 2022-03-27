@@ -1,0 +1,12 @@
+.main-quienes {
+    display: flex;
+    flex-direction: row;
+    row-gap: 10px ;
+}
+
+.quien {
+    width: 50%;
+    height: 400px;
+    background-color: blueviolet;
+    margin: 10px;
+}

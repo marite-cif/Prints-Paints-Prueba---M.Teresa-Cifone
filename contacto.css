@@ -1,0 +1,33 @@
+.main-contacto{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.input-name{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+   
+}
+
+.input-mail{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+
+.input-motivo{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    width: 400px;
+    height: 200px;
+}
+
+.submit{
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
